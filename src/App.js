@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <section className='container'>
-        <h3>color generator</h3>
+        <h3>Generate Color</h3>
         <form onSubmit={handleSubmit}>
           <input
             type='text'
@@ -32,7 +32,7 @@ function App() {
             className={`${error ? 'error' : null}`}
           />
           <button className='btn' type='submit'>
-            submit
+            GO
           </button>
         </form>
       </section>
